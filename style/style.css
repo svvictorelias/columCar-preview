@@ -57,7 +57,7 @@ p{
 button{
     padding: 12px 25px;
     border-radius: 20px;
-    border: none;
+    border: 0.5px solid white;
     cursor: pointer;
     font-weight: 700;
 }
@@ -83,6 +83,7 @@ button{
 }
 #btn3{
     color: var(--ciano);
+    
 }
 
 
@@ -119,4 +120,20 @@ button{
     p{
         padding-bottom: 20px;
     }
+}
+
+#btn1:hover{
+    color: white;
+    background-color: var(--orange);
+    font-weight: 400;
+}
+#btn2:hover{
+    color: white;
+    background-color: var(--verdeAgua);
+    font-weight: 400;
+}
+#btn3:hover{
+    color: white;
+    background-color: var(--ciano);
+    font-weight: 400;
 }
